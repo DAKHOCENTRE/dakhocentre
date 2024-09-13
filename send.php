@@ -1,10 +1,10 @@
 <?php
 
-use Infobip\Configuration;
-use Infobip\Api\SmsApi;
-use Infobip\Model\SmsDestination;
-use Infobip\Model\SmsTextualMessage;
-use Infobip\Model\SmsAdvancedTextualRequest;
+use Configuration;
+use Api\SmsApi;
+use SmsDestination;
+use SmsTextualMessage;
+use SmsAdvancedTextualRequest;
 use Twilio\Rest\Client;
 
 require __DIR__ . "autoload.php";
